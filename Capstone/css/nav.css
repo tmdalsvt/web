@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: darkslategrey;
+  list-style-type: none;
+}
+
+.nav-item {
+  padding: 15px;
+  cursor: pointer;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:link {
+  color: black;
+}
+
+li a:visited {
+  color: black;
+}
+
+li a:active {
+  color: black;
+}
+
+.nav-item:nth-child(1) {
+  background-color: lightseagreen;
+}

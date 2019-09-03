@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.main {
+  display: flex;
+  margin-top: 50px;
+}
+
+.main-info {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.search {
+  margin-top: 5px;
+  padding-left:70px; width:500px; height: 30px; border: 1px solid;
+  background-image:url('http://i47.tinypic.com/r02vbq.png');
+  background-repeat:no-repeat;
+  background-position:left;
+}
+
+.check-in, .check-out, .no-date{
+  margin-top: 15px;
+}
+
+.no-date span {
+  font-size: 13px;
+}
+
+.date {
+  margin-top: 5px;
+  display: flex;
+}
+
+.calendar {
+  background-image: url("../image/calendar.gif");
+  background-position: left center;
+  background-repeat: no-repeat;
+  border: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin: 7.5px;
+}
+
+.year-month-menu, .date-menu{
+  width: 200px;
+  height: 40px;
+  margin-left: 3px;
+}
